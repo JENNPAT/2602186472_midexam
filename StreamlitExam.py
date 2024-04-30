@@ -37,9 +37,6 @@ def main():
                     NumOfProducts, HasCrCard_encoded, IsActiveMember_encoded, EstimatedSalary]
         
         result = make_prediction(features)
-        st.success(f'The prediction is: {result}')
-
-        result = make_prediction(features)
 
         # transform the output label based on prediction
         if result == 0:
